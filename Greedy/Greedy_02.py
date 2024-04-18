@@ -1,4 +1,5 @@
 #Greedy_02
+"""
 n, m, k = map(int, input().split())
 data = list(map(int, input().split()))
 
@@ -19,6 +20,7 @@ while True:
     m -= 1
 
 print(result)
+"""
 
 # 만약 M의 크기가 100억 이상으로 커진다면?
 n, m, k = map(int, input().split())
